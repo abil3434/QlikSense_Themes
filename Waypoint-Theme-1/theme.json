@@ -2,7 +2,10 @@
   "_inherit": true,
   "_variables" : {
     "@wpBlueColor" : "#203A6F",
-    "@wpRedColor": "@wpRedColor"
+    "@wpRedColor": "#C0272D",
+    "@wpWhiteColor": "#FFFFFF",
+    "@wpBlackColor": "#000000",
+    "@wpGreyColor": "#54565B"
   },
   "dataColors": {
     "primaryColor": "@wpBlueColor",
@@ -17,7 +20,10 @@
         "type": "row",
         "scale": [
           "@wpBlueColor",
-          "@wpRedColor"
+          "@wpRedColor",
+          "@wpWhiteColor",
+          "@wpBlackColor",
+          "@wpGreyColor"
         ]
       }
     ],
@@ -26,7 +32,10 @@
         "name": "New color picker color",
         "colors": [
           "@wpBlueColor",
-          "@wpRedColor"
+          "@wpRedColor",
+          "@wpWhiteColor",
+          "@wpBlackColor",
+          "@wpGreyColor"
         ]
       }
     ]
@@ -39,7 +48,10 @@
       "propertyValue": "bsp8uq",
       "scale": [
         "@wpBlueColor",
-        "@wpRedColor"
+        "@wpRedColor",
+        "@wpWhiteColor",
+        "@wpBlackColor",
+        "@wpGreyColor"
       ]
     }
   ]
