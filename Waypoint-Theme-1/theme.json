@@ -9,9 +9,10 @@
       "othersColor": "@wpRedColor"
     },
     "palletes": {
+        "data":[],
         "ui": [
             {
-                "name": "Pallete",
+                "name": "New Color Picker Colors",
                 "colors": [
                     "#FFFFFF",
                     "@wpBlueColor",
@@ -19,6 +20,17 @@
                     "#000000"
                 ]
             }
+        ],
+        "scales": [
+          {
+            "name": "New Measure colors",
+            "type": "class",
+            "propertyValue": "wpScales01",
+            "scale": [
+              "@wpBlueColor",
+              "@wpRedColor"
+            ]
+          }
         ]
     }
   }
