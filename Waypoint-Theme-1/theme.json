@@ -1,36 +1,46 @@
 {
-    "_inherit": true,
-    "_variables" : {
-      "@wpBlueColor" : "#203A6F",
-      "@wpRedColor": "#C0272D"
-    },
-    "dataColors": {
-      "primaryColor": "@wpBlueColor",
-      "othersColor": "@wpRedColor"
-    },
-    "palletes": {
-        "data":[],
-        "ui": [
-            {
-                "name": "New Color Picker Colors",
-                "colors": [
-                    "#FFFFFF",
-                    "@wpBlueColor",
-                    "@wpRedColor",
-                    "#000000"
-                ]
-            }
-        ],
-        "scales": [
-          {
-            "name": "New Measure colors",
-            "type": "class",
-            "propertyValue": "wpScales01",
-            "scale": [
-              "@wpBlueColor",
-              "@wpRedColor"
-            ]
-          }
+  "_inherit": true,
+  "_variables" : {
+    "@wpBlueColor" : "#203A6F",
+    "@wpRedColor": "@wpRedColor"
+  },
+  "dataColors": {
+    "primaryColor": "@wpBlueColor",
+    "othersColor": "@wpRedColor"
+  },
+  "palettes": {
+    "data": [
+      {
+        "name": "New dimension colors",
+        "translation": "New dimension colors description",
+        "propertyValue": "jj1ldo",
+        "type": "row",
+        "scale": [
+          "@wpBlueColor",
+          "@wpRedColor"
         ]
+      }
+    ],
+    "ui": [
+      {
+        "name": "New color picker color",
+        "colors": [
+          "@wpBlueColor",
+          "@wpRedColor"
+        ]
+      }
+    ]
+  },
+  "scales": [
+    {
+      "name": "New measure colors",
+      "translation": "New measure colors description",
+      "type": "class",
+      "propertyValue": "bsp8uq",
+      "scale": [
+        "@wpBlueColor",
+        "@wpRedColor"
+      ]
     }
-  }
+  ]
+}
