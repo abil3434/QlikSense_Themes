@@ -1,12 +1,9 @@
 {
     "_inherit": true,
-    "_cards": true,
     "_variables" : {
       "@wpBlueColor" : "#203A6F",
-      "@wpRedColor": "#C0272D",
-      "@text": "#4c4c4c"
+      "@wpRedColor": "#C0272D"
     },
-    "color": "@text",
     "dataColors": {
       "primaryColor": "@wpBlueColor",
       "othersColor": "@wpRedColor"
